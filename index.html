@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kindred Virtual Desk | Home</title>
+    <link rel="icon" sizes="64x64" href="assets/images/logo.svg" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="off-screen-menu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <header>
+      <nav id="mobile-nav">
+        <div class="container">
+          <div class="logo">
+            <a href=""></a
+            ><img src="assets/images/logo.svg" alt="Kindred Virtual Desk" />
+          </div>
+          <div class="ham-btn">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </div>
+          <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </nav>
+      <nav id="desktop-nav">
+        <div class="container">
+          <div class="logo">
+            <img src="assets/images/logo.svg" alt="Kindred Virtual Desk" />
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ===== HERO SECTION ===== -->
+      <section id="hero">
+        <div class="container">
+          <canvas id="hero-canvas"></canvas>
+          <div class="hero-content">
+            <div class="hero-character">
+              <img
+                src="assets/images/add-ons/hero-character.svg"
+                alt="Medical VA"
+              />
+            </div>
+            <div class="hero-info">
+              <strong>KINDRED VIRTUAL DESK</strong>
+              <p>Focus on What Matters, Let Us Handle the Rest</p>
+              <a href="#contact">Get Started Now ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        class="wave-separator"
+      >
+        <defs>
+          <linearGradient
+            id="a35"
+            x1="500"
+            x2="500"
+            y1="0"
+            y2="100"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#125e67" offset="0"></stop>
+            <stop stop-color="#125e67" offset="0.1" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#a35)" d="M0 0h1000v100H0z"></path>
+      </svg>
+
+      <section id="about">
+        <div class="container">
+          <div class="about-img">
+            <img src="assets/images/add-ons/home-about.svg" alt="" />
+          </div>
+          <div class="about-info">
+            <small>About Us</small>
+            <strong>Professional Support You Can Trust</strong>
+            <p>
+              At <b>Kindred Virtual Desk</b>, we provide skilled medical virtual
+              assistants to handle your admin tasks efficiently, so you can
+              focus on what matters most.
+            </p>
+            <a href="about.html"
+              >More About Us <i class="fa-solid fa-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        class="wave-separator"
+      >
+        <defs>
+          <linearGradient
+            id="a35"
+            x1="500"
+            x2="500"
+            y1="0"
+            y2="100"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#125e67" offset="0"></stop>
+            <stop stop-color="#125e67" offset="1" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#a35)" d="M0 0h1000v100H0z"></path>
+      </svg>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>
